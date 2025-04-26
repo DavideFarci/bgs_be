@@ -1,0 +1,57 @@
+# Sistema operativo
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+
+# Ambiente virtuale
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# File di configurazione locali
+*.db
+*.sqlite3
+*.sqlite3-journal
+
+# Files di configurazione di IDE (come VSCode, PyCharm, ecc.)
+.vscode/
+.idea/
+
+# Cartelle di build
+build/
+dist/
+
+# Pytest
+.cache/
+
+# Dipendenze
+Pipfile.lock
+*.egg-info/
+.eggs/
+
+# Dati temporanei o di log
+*.log
+
+# File di configurazione locali
+settings.py
+*.local
+*.env
+*.config
+*.json
+
+# Gestione media e static files
+media/
+staticfiles/
+
+# Altri file Django generati
+*.pot
+
+# Files di migrazioni
+migrations/
+
+# Segreti o file sensibili
+*.env
